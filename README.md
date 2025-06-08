@@ -1,5 +1,50 @@
-# Vue 3 + Vite
+# ⚡ Charging Stations App
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+A full-stack web application to manage electric vehicle charging stations. Built with Vue 3, Bootstrap, Express, MongoDB, and Leaflet.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+---
+
+## 🔗 Live Demo
+
+- 🔥 Frontend (Vercel): [charging-stations-frontend-nine.vercel.app](https://charging-stations-frontend-nine.vercel.app)
+- ⚙️ Backend (Render): [charging-stations-backend-0w2v.onrender.com](https://charging-stations-backend-0w2v.onrender.com)
+
+---
+
+## ✨ Features
+
+- 🔐 User authentication (Login & Register)
+- 📋 Station listing with filtering (status, power, connector type)
+- 🗺️ Integrated map view (Leaflet + OpenStreetMap)
+- 📝 Add / Edit / Delete stations (with validation)
+- 🔍 Station detail view
+- 🔒 Route protection via JWT
+- 🎨 Responsive UI (Bootstrap 5)
+
+---
+
+## 🧑‍💻 Tech Stack
+
+### 🖼️ Frontend
+- Vue 3 + Vue Router
+- Bootstrap 5
+- Leaflet.js
+- Axios
+
+### 🛠️ Backend
+- Node.js + Express.js
+- MongoDB Atlas
+- Mongoose
+- JWT Auth
+- CORS + Dotenv
+
+---
+
+## 🚀 How to Run Locally
+
+### 1. Backend
+
+```bash
+cd backend
+npm install
+touch .env
